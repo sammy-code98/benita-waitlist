@@ -1,6 +1,7 @@
 # Benita-Waitlist
+A simple waitlist landing page built with astro and a bit of react js
 
-# Astro Starter Kit: Basics
+## Astro Starter Kit: Basics
 
 ```sh
 yarn create astro@latest -- --template basics
@@ -15,16 +16,23 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   └── favicon.ico
 ├── src
 │   ├── assets
-│   │   └── astro.svg
+│       └── icons
+|       └── background.svg
+|       └── logo.svg   
+|          
 │   ├── components
+        └── forms
+        └── globals
 │   │   └── Welcome.astro
 │   ├── layouts
 │   │   └── Layout.astro
 │   └── pages
 │       └── index.astro
+    ├── sytles
+    ├── schema
 └── package.json
 ```
 
