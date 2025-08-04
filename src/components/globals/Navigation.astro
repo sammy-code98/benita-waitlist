@@ -1,0 +1,15 @@
+---
+import logo from "./src/assets/logo.svg";
+import { Image } from "astro:assets";
+---
+
+<section aria-labelledby="navigation">
+  <header
+    class="flex justify-between items-center px-8 py-2 bg-benita-secondary"
+  >
+    <div class="flex items-center gap-2">
+      <Image src={logo} alt="benita Logo" width="50" height="50" />
+      <h3 class="text-xl text-benita-white-100 font-bold">Benita</h3>
+    </div>
+  </header>
+</section>

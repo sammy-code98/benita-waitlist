@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme{
+  --color-benita-primary-100:#FACB0F;
+  --color-benita-primary-200:#FFE3A5;
+  --color-benita-primary-300:#FFFAEC;
+  --color-benita-white-100:#FFFFFF;
+  --color-benita-white-200:#E2E2E2;
+  --color-benita-white-300:#F6F6F6;
+  --color-benita-black-100:#000000;
+  --color-benita-black-200:#00000014;
+  --color-benita-grey:#475569;
+  --color-benita-secondary:#FFFFFF1A;
+  --color-benita-red:#FF5722;
+  --color-benita-blue:#E3E7E8;
+  --color-benita-orange:#461B04;
+}

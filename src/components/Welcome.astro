@@ -1,0 +1,36 @@
+---
+import background from "../assets/background.svg";
+import WaitlistForm from "./forms/WaitlistForm.jsx";
+---
+
+<div class="h-full relative">
+  <img
+    class="fixed top-0 left-0 w-full h-full object-cover object-center -z-10"
+    src={background.src}
+    alt=""
+    fetchpriority="high"
+  />
+  <main>
+    <section class="space-y-12">
+      <div class="max-w-2xl space-y-1 md:space-y-2">
+        <p
+          class="text-base md:text-lg text-benita-white-200 text-center font-medium"
+        >
+          The Future of Ecommerce is Here
+        </p>
+        <h1
+          class="text-4xl md:text-7xl font-bold text-center text-benita-white-200 leading-tight antialiased"
+        >
+          Join the Waitlist for <span
+            class="text-shadow-lg/30 text-shadow-benita-primary-200 bg-gradient-to-r from-benita-orange via-benita-primary-200 to-benita-primary-100 bg-clip-text text-transparent"
+            >Benita</span
+          >
+        </h1>
+      </div>
+
+      <div class="text-white max-w-lg mx-auto">
+        <WaitlistForm client:load />
+      </div>
+    </section>
+  </main>
+</div>
